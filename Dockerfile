@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM ghcr.io/library/ubuntu:jammy
 
 RUN mkdir -p /bd_build/bin/
 

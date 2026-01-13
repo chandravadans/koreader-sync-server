@@ -31,7 +31,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+            ghcr.io/${{ env.IMAGE_NAME }}
           tags: |
             type=raw,value=${{ inputs.tag || 'latest' }}
       

@@ -86,3 +86,4 @@ VOLUME ["/var/log/redis", "/var/lib/redis"]
 
 CMD ["/sbin/my_init"]
 EXPOSE 7200
+EXPOSE 17200
